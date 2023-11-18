@@ -26,7 +26,7 @@ void loop()
       {
         next=millis()+time;
         Serial.print(analogRead(A0));
-        Serial.print(",");
+        Serial.print(" ");
         Serial.print(analogRead(A1));
         count++;
         if(count==num)
@@ -37,7 +37,7 @@ void loop()
         }
         else
         {
-          Serial.print(",");
+          Serial.print(" ");
         }
       }
     }
